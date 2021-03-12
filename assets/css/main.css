@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Abril Fatface', cursive !important;
+}
+
+/** BASIC */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ 
+body {
+    font-size: 14px;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+a, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.table th {
+    color: #fff;
+}
+
+/* THEME */
+.bg-base {
+    background-color: #8b0000 !important;
+}
+
+
+.bg-grey {
+    background-color: #f4f4f4;
+}
+
+.text-base {
+    color: #8b0000;
+}
+
+.btn-base {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 40px;
+    border: 1px solid #8b0000;
+    outline: none;
+    border-radius: 3px;
+    transition: .3s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-base:hover {
+    background-color: transparent;
+    border: 1px solid #8b0000;
+    color: #8b0000;
+}
+
+.btn-base-outline {
+    background-color: transparent;
+    color: #8b0000;
+    padding: 10px 40px;
+    border: 1px solid #8b0000;
+    outline: none;
+    border-radius: 3px;
+    transition: .3s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-base-outline:hover {
+    background-color: #8b0000;
+    color: #fff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+/** OVERRIDE CSS */
+.form-control {
+    transition: .3s;
+    border-radius: 3px;
+    height: auto;
+    font-size: 15px;
+    padding: 10px !important;
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    border: 1px solid #8b0000 !important;
+    box-shadow: none;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: auto !important;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+}
+
+/* Custom Checkbox */
+.checkbox label:after,
+.radio label:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #a9a9a9;
+  border-radius: .25em;
+  width: 1.3em;
+  height: 1.3em;
+  float: left;
+  margin-right: .5em;
+}
+
+.radio .cr {
+  border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+  position: absolute;
+  font-size: .8em;
+  line-height: 0;
+  top: 50%;
+  left: 13%;
+}
+
+.radio .cr .cr-icon {
+  margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+  display: none;
+}
+
+.checkbox label input[type="checkbox"]+.cr>.cr-icon,
+.radio label input[type="radio"]+.cr>.cr-icon {
+  opacity: 0;
+}
+
+.checkbox label input[type="checkbox"]:checked+.cr>.cr-icon,
+.radio label input[type="radio"]:checked+.cr>.cr-icon {
+  opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled+.cr,
+.radio label input[type="radio"]:disabled+.cr {
+  opacity: .5;
+}
+
+/* CONTACT US */
+
+.contact-page form label {
+    margin-bottom: 10px;
+}
+
+.contact-page .input-group, .contact-page .form-group {
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    padding: 0 20px;
+}
+
+.contact-page h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-page .form-control {
+    padding: 10px 18px 10px 18px;
+    border: none;
+}
+
+.contact-page .form-control:focus {
+    border: none !important;
+}
+
+.contact-page textarea.form-control {
+    max-width: 100%;
+    max-height: 120px;
+    padding: 10px 10px 0 0;
+    resize: none;
+    border: 1px solid #E3E3E3;
+    border-radius: 0 !important;
+    line-height: 2;
+}
+
+.contact-page textarea.form-control:focus {
+    border: 1px solid #E3E3E3 !important;
+}
+
+.contact-page .input-group .input-group-addon {
+    margin-right: 0;
+}
+
+.contact-page .input-group .input-group-addon {
+    border: none;
+    background-color: transparent;
+}
+
+.contact-page i {
+    width: 17px;
+}
+
+ 
+/* MAP */
+.section-map iframe {
+    width: 100%;
+}
+
+.section-map {
+    padding: 0px !important;
+    background-color: #151515;
+}

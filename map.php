@@ -1,0 +1,3 @@
+<section class="section-map" id="contact">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6088.141247897989!2d67.08499879372512!3d24.862809764976625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf05c1d76a9bea387!2sThe%20City%20School%20-%20PAF%20Chapter!5e0!3m2!1sen!2sus!4v1571560677761!5m2!1sen!2sus" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>        
+</section>
